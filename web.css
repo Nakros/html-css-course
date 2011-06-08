@@ -1,0 +1,85 @@
+    body {
+        background-color: black ;           
+        text-align: center   ;    
+    }
+  
+    h1 {
+        border-style: dashed ;
+        border-top-width: 15px ;            
+        border-right-width: 15px ;
+        border-left-width: 15px ;
+        border-bottom-width: 15px ;        
+        border-color: black ;        
+        font-size: 1.5em ;
+        color: white ;    	
+        background-color: navy ;
+    	margin-left: 7em ;
+        margin-right: 7em ;    	
+        padding: 1em ;   
+        text-decoration: underline ;        
+    }      
+       
+    h2 {
+    	font-size: 1.5em ;
+        color: silver ;    	
+        background-color: teal ;
+    	margin-left: 10em ;
+        margin-right: 10em ;    	
+        padding: 1em ;    
+        text-decoration: line-through ;    
+    }    
+
+    h3 {
+        margin-right: 1em ;
+        font-size: 1.5em ;
+        color: silver ;    	
+        background-color: teal ;
+    	margin-left: 8em ;
+        margin-right: 8em ;        
+        padding: 1em ;
+        text-decoration: line-through ;
+    }
+            
+    h4 {
+        margin-right: 1em ;
+        font-size: 1.5em ;
+        color: silver ;    	
+        background-color: teal ;
+    	margin-left: 8em ;
+        margin-right: 8em ;        
+        padding: 1em ;        
+        text-decoration: line-through ;
+    }
+
+    h5 {
+        margin-right: 1em ;
+        font-size: 1.5em ;
+        color: silver ;    	
+        background-color: teal ;
+    	margin-left: 0.5em ;
+        margin-right: 0.5em ;        
+        padding: 1em ;
+        text-decoration: line-through ;
+    }
+    
+    h6 {
+        margin-right: 1em ;
+        font-size: 1.5em ;
+        color: silver ;    	
+        background-color: teal ;
+    	margin-left: 12em ;
+        margin-right: 12em ;        
+        padding: 1em ;
+        text-decoration: line-through ;
+    }            
+
+    p {
+    	color: purple ;
+    }
+    
+    a {
+    	color: blue ;
+        background-color: black ;            
+        text-decoration: underline ;    
+    }
+

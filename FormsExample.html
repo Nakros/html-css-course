@@ -6,22 +6,21 @@
         <title>
             Forms Example in HTML
         </title>
+        <link rel="stylesheet"type="text/css"href="/home/peppe/projects/html-css-course/web.css"/>
     </head>
         <body>
             <p>
-               <input type="image" src="http://www.fuggled.co.uk/PHPblog/images/Fresh.jpg" />
+               <input type="image" src="/home/peppe/Scrivania/blue-biohazard-static-logo.jpg" />
                
             </p>
-            <p>
                 <h1>
                     Fake Test!
-                </h1>
-            </p>            
-            <p>
+                </h1>           
                 <h2>
                     Are you...?
                 </h2>                
-                    <select>
+                <p>
+                   <select>
                         <option value="01">
                             Male
                         </option>
@@ -32,70 +31,70 @@
                             Alien   
                         </option>              
                     </select>
-            </p>  
+                </p>  
             
         <form action="#">
-            <h2>
+            <h3>
                     What are you wearing??
-            <h2>                
+            </h3>                
             <p>
                 <input type="checkbox" name="Wear" value="Life" checked="checked"/>
-                <lable for="Life">A ficus life</lable>
+                <label for="Life">A ficus life</label>
             </p>
             <p>                
                 <input type="checkbox" name="Wear" value="Bikini" />
-                <lable for="Bikini">A male bikini</lable>                    
+                <label for="Bikini">A male bikini</label>                    
             </p>                   
             <p>
                 <input type="checkbox" name="Wear" value="Condom" />
-                <lable for="Condom">A condom</lable>                   
+                <label for="Condom">A condom</label>                   
             </p>
             <p>
                 <input type="reset" name="Wear"/>
             </p>
         </form>
-            <h2>
+            <h4>
                 Which of this pet do you prefer??                        
-            </h2>            
+            </h4>            
             <p>
                 <input type="radio" name="Pet" value="Drugs" checked="checked" />
-                <lable for="Drugs">Hashish</lable>
+                <label for="Drugs">Hashish</label>
             </p>
             <p>
                 <input type="radio" name="Pet" value="Goblins"/>  
-                <lable for="Goblins">Goblins</label>
+                <label for="Goblins">Goblins</label>
             </p>    
             <p>
                 <input type="radio" name="Pet" value="Socks"/>         
-                <lable for="Socks">Socks with Muss</lable>
+                <label for="Socks">Socks with Muss</label>
             </p>                
             <p>
                 <input type="radio" name="Pet" value="Other"/>
                 <input type="text" />         
             </p>
             <p>
-                <lable for="Photo">Show us a your photo</lable>
+                <label for="Photo">Show us a your naked photo</label>
                 <input type="file" />
             </p>        
-            <h2>
-                If you're registred in one of the following sites please log in
-            </h2>
+            <h5>
+                If you're registred in one of this sites please log in
+            </h5>
             <p>
-                Alien_from_the_Ocean.co.uk ; 
+                <a href="#">Alien_from_the_Ocean.co.uk </a>; 
             </p>
             <p> 
-                Mac_is_onest.org ;
+                <a href="#">Mac_is_onest.org </a>;
             </p>
             <p>   
-                The_lolling_web.fr
+                <a href="#">The_lolling_web.fr </a>
             </p>
 
             <p>
-                <lable for="Username">Your username</lable>
-                <input type="textarea" />          
+                <label for="Username">Your username</label>
+                <input type="text" />          
             </p>
             <p>
-                <lable for="Password">Your password</lable>
+                <label for="Password">Your password</label>
                 <input type="password" />
             </p>
                     
@@ -110,17 +109,15 @@
                 <input type="hidden" />
             </p>
             <form action="#">
-                <h2>
+                <h6>
                     Commits
-                </h2>            
+                </h6>            
                 <p>
-                    <textarea rows="5" cols="20">
-                        Write here what you think about this test*
+                    <textarea rows="5" cols="20" name="Commits">
+                    Write here what you think about this test*               *(you'll be censured)
                     </textarea> 
-                </p>
-                <p>
-                    *(you'll be censured)  
-                </p>
+                    <input type="submit" name="Commits" value="Click,Submit,Suck"/>               
+                </p>            
             </form>
            
         </body>
