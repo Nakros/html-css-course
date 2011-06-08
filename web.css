@@ -1,5 +1,8 @@
     body {
-        background-color: black ;           
+        background-image: url('images/biohazard.jpg') ;
+        background-repeat: no-repeat ;
+        background-position: bottom ;           
+        background-color: black ;        
         text-align: center   ;    
     }
   
