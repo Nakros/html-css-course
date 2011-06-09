@@ -3,14 +3,23 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
     <title>Car Layout</title>
+    <style type="text/css">
+        body {
+            background: silver url(images/work.png) no-repeat top left;        
+            font-family: Arial ;
+            font-size: 14px ;        
+            font-weight: normal ;        
+        }
+            
+    </style>
 </head>
-<body>
-    <table width="900" border="0">
+<body style="background-color:silver">
+    <table width="50" border="0">
         <tr>
         <td colspan="2">
                 <h1>306 car reviews found</h1>
         </td>
-        <td text-align="right">
+        <td text-align="top">
             Sort by: 
             <select>
             <option value="first option">Make A-Z</option>
@@ -19,19 +28,24 @@
         </tr>
         <tr>
         <td>
-            <input type="textarea" value="6000" />
+            <input type="text" value="6000" />
         </td>
         <td>
             <input type="image" src="images/slider.png"/>
         <td>
-            <input type="textarea" value="80000" />
+            <input type="text" value="80000" />
         </tr>
+    </table>
+    <table style="background-color: white ; margin: 1em ; width: 800 ; border-radius:15px;" >       
         <tr>
         <td>
-            <input type="image" src="images/car.png" />
+            <input type="image" src="images/car.png" style="border-style:solid ; border-radius: 15px ; border-width: 1em ; margin: 0.5em ; border-color:silver " />
         </td>
         <td>
-            <table width="500" border="0">
+            <h2 style="color:blue ; font-size: 1.5em">
+                Alfa Romeo Spider
+            </h2>
+            <table class="car" width="350" border="0">
                 <tr>
                 <td>
                     <b>Price range</b>
@@ -43,9 +57,21 @@
                     <b>MPG</b>    
                 </td>
                 </tr>
-
-
-
+                <tr>
+                <td>
+                    £27,394 - 
+                </td>
+                <td>
+                    seat n°
+                </td>
+                <td>
+                    mpg
+                </td>
+                </tr>
+                </table>
+            <td>
+                <input type="image" src="images/score.png" style="margin:1em" top="40px"/>
+            </td>
     </table>
 </body>
 </html>
