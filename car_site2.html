@@ -10,39 +10,76 @@
             font-size: 14px ;        
             font-weight: normal ;        
         }
-            
-    </style>
+        h2.carname {
+            position: relative ;
+            top: -1.7em ;
+            left: 0.3em ;        
+        }           
+        image#score {
+            position:relative ;
+            top:-10px ;
+        }
+        .carimage {             
+            border-style:solid ;
+            border-radius: 20px ; 
+            border-width: 0.7em ; 
+            margin-left: 1.5em ; 
+            margin-right: 1em ; 
+            border-color:silver ; 
+            padding: 0.2em ;"     
+        } 
+
+        .score {
+             margin:1em ; 
+             margin-bottom:9em ;
+        }
+
+        .price {
+            border-top-style:solid;
+            border-right-style:none;
+            border-bottom-style:none;
+            border-left-style:none;
+            border-width:0.15em ;
+            border-color:silver ;
+        }            
+        
+        .sort {
+            positioning:absolute ;
+            right:-20px ;
+            z-index:-1 ;
+        }
+   </style>
 </head>
 <body style="background-color:silver">
-    <table width="50" border="0">
+    <table style="width:45em" border="0">
         <tr>
         <td colspan="2">
                 <h1>306 car reviews found</h1>
         </td>
-        <td text-align="top">
-            Sort by: 
-            <select>
+        <td>
+            Sort by:            
+             <select>
             <option value="first option">Make A-Z</option>
             </select>
         </td>
         </tr>
         <tr>
         <td>
-            <input type="text" value="6000" />
+            <input type="text" value="6000" style="width:7em;"/>
         </td>
         <td>
             <input type="image" src="images/slider.png"/>
         <td>
-            <input type="text" value="80000" />
+            <input type="text" value="80000"style="width:7em;" />
         </tr>
     </table>
-    <table style="background-color: white ; margin: 1em ; width: 800 ; border-radius:15px;" >       
+    <table style="background-color: white ; margin: 1.2em ; width: 100 ; height: 500 ;  border-radius:15px;" >       
         <tr>
         <td>
-            <input type="image" src="images/car.png" style="border-style:solid ; border-radius: 15px ; border-width: 1em ; margin: 0.5em ; border-color:silver " />
+            <input class="carimage" type="image" src="images/car.png" />
         </td>
         <td>
-            <h2 style="color:blue ; font-size: 1.5em">
+            <h2 class="carname" style="color:blue ; font-size: 1.5em ; ">
                 Alfa Romeo Spider
             </h2>
             <table class="car" width="350" border="0">
@@ -58,19 +95,19 @@
                 </td>
                 </tr>
                 <tr>
-                <td>
-                    £27,394 - 
+                <td class="price">
+                    £27,394 -  
                 </td>
-                <td>
-                    seat n°
+                <td class="price">
+                    5
                 </td>
-                <td>
+                <td class="price">
                     mpg
                 </td>
                 </tr>
                 </table>
             <td>
-                <input type="image" src="images/score.png" style="margin:1em" top="40px"/>
+                <input class="score" type="image" src="images/score.png" />
             </td>
     </table>
 </body>
