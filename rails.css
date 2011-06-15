@@ -1,7 +1,8 @@
     body {
         font-size:0.8em;
         margin:0;
-        background-image:url('images/rubyrails.png');
+        ackground-image:url('images/rubyrails.png');
+        font-family: Verdana;
         background-position:top,left;     
     }
     .begin {        
@@ -9,48 +10,43 @@
         text-align:center;        
         color:gray;
         background-color:black;      
-        margin-bottom:0;    
+        margin:0;    
     }
     #tab1 {
-        border:3px dotted black;
         margin-right:10em;    
         width:50%;   
         font-size:1.3em;    
     }
             
     #tab2 {
-        background-color:red;
+        background-color:#c52f24;
         width:50% ;
         height:3em;   
-        margin-top:1em;    
+        margin-top:0;    
         padding:0.7em;            
-        border:1px solid green;    
         color:white;
         font-size:1.3em;              
     }            
        
     #tabella {
-        background-color:red;
+        background-color:#c52f24;
         width:100%;
         height:7em;   
         margin-top:0;                
         margin-left:1px;    
     } 
     #pank {
-        color:purple;
+        color:#f1938c;
     }
     #raimage {
         position:relative;
-        left:1em;
-        top:0em;    
-    }    
-        
-    .whitel {
-        
+        left:1px;
+        top:0;    
     }    
     #whitel {
         color:white;
-        text-align:right;
+        margin-left:2em;
+        margin-top:2em;
     }
     #railorg {
         color:white;
@@ -68,9 +64,10 @@
     .azzurro {
         font-size:1.3em;
         text-align:left;
-        background-color:#D5E9F6 ;   
-        width:100%;
-        height:5em;
+        background-color:#d5e6f7 ;   
+        width:78%;
+        height:1%;
+        margin-top:0;
     }
     #tab3 {
         width:1em
@@ -79,9 +76,40 @@
     #cartello1 {
         z-index:1;
         position:absolute;
-        top:200px;
-        right:30px;    
+        top:144px;
+        right:0;    
     }
-    #cartello {
-        z-index:1;
+    .guides {
+        padding-top:0;        
+        margin-top:0;
+        margin-left: 2em;
+        margin-bottom:0.5em;
+        width:70%;
+    }
+    h3.guides  {
+        color:#333333;
+        font-size:1.5em;
+        text-decoration:none;
+        margin-top:0.5em;
+        margin-bottom:0.5em;
+   }
+    a.guides {
+        color:#980905;
+        text-decoration:underline;
+        font-size:1.2em;
+        font-weight:bold;
+    }
+    border.guides {        
+        border-bottom:solid;
+        border-width:1em;
+        border-color:gray;
+        padding:0;
+    }
+    p.guides {
+        font-size:0.95em;
+    }
+    td.guides {
+        border-bottom:solid;
+        border-width:0.1em;
+        border-color:#cccccc;    
     }
