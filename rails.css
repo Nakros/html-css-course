@@ -85,6 +85,7 @@
         margin-left: 2em;
         margin-bottom:0.5em;
         width:70%;
+        text-align:left;
     }
     h3.guides  {
         color:#333333;
@@ -92,24 +93,29 @@
         text-decoration:none;
         margin-top:0.5em;
         margin-bottom:0.5em;
+        text-align:left;
    }
     a.guides {
         color:#980905;
         text-decoration:underline;
         font-size:1.2em;
         font-weight:bold;
+        text-align:left;
     }
     border.guides {        
         border-bottom:solid;
         border-width:1em;
         border-color:gray;
         padding:0;
+        text-align:left;
     }
     p.guides {
+        text-align:left;
         font-size:0.95em;
     }
     td.guides {
         border-bottom:solid;
         border-width:0.1em;
         border-color:#cccccc;    
+        text-align:left;
     }
